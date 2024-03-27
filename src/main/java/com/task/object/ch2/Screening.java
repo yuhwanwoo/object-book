@@ -13,6 +13,14 @@ public class Screening {
         this.whenScreened = whenScreened;
     }
 
+    public Reservation reserve(Customer customer, int audienceCount) {
+        return null;
+    }
+
+    private Money calculateFee(int audienceCount) {
+        return movie.calculateMovieFee(this).times(audienceCount);
+    }
+
     public LocalDateTime getStartTime() {
         return whenScreened;
     }
