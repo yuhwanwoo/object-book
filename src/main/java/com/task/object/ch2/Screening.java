@@ -25,8 +25,8 @@ public class Screening {
         return whenScreened;
     }
 
-    public void isSequence(int sequence) {
-        this.sequence = sequence;
+    public boolean isSequence(int sequence) {
+        return this.sequence == sequence;
     }
 
     public Money getMovieFee() {
