@@ -19,6 +19,10 @@ public class Screening {
         return sequence;
     }
 
+    public Movie getMovie() {
+        return movie;
+    }
+
     public LocalDateTime getWhenScreened() {
         return whenScreened;
     }
