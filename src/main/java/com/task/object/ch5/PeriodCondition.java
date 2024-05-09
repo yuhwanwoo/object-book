@@ -3,7 +3,7 @@ package com.task.object.ch5;
 import java.time.DayOfWeek;
 import java.time.LocalTime;
 
-public class PeriodCondition implements DiscountCondition {
+public class PeriodCondition {
     private DayOfWeek dayOfWeek;
     private LocalTime startTime;
     private LocalTime endTime;
@@ -21,7 +21,6 @@ public class PeriodCondition implements DiscountCondition {
                 endTime.compareTo(screening.getWhenScreened().toLocalTime()) >= 0;
     }
 
-    @Override
     public DiscountConditionType getType() {
         return type;
     }
