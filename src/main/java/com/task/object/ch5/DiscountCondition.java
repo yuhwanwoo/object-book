@@ -27,4 +27,8 @@ public class DiscountCondition {
                 startTime.compareTo(screening.getWhenScreened().toLocalTime()) <= 0 &&
                 endTime.compareTo(screening.getWhenScreened().toLocalTime()) >= 0;
     }
+
+    public boolean isSatisfiedBy(Screening screening) {
+        return false;
+    }
 }
