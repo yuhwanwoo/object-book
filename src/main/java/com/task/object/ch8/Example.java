@@ -6,5 +6,10 @@ public class Example {
     public static void main(String[] args) {
         Movie avatar = new Movie("아바타", Duration.ofMinutes(120), Money.wons(10000), new AmountDiscountPolicy());
         Movie starWars = new Movie("스타워즈", Duration.ofMinutes(180), Money.wons(11000), new PercentDiscountPolicy());
+
+        Movie 아바타 = new Movie(
+                "아바타", Duration.ofMinutes(120), Money.wons(10000),
+                new AmountDiscountPolicy() // 의존성을 명시적으로 드러냄
+        );
     }
 }
