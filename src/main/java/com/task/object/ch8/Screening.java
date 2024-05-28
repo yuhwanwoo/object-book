@@ -1,10 +1,5 @@
 package com.task.object.ch8;
 
-import com.task.object.ch5.Customer;
-import com.task.object.ch5.Money;
-import com.task.object.ch5.Movie;
-import com.task.object.ch5.Reservation;
-
 import java.time.LocalDateTime;
 
 public class Screening {

@@ -19,7 +19,7 @@ public class Movie {
         this.discountPolicy = discountPolicy;
     }
 
-    public Money calculateMovieFee(Screening screening, DiscountPolicy discountPolicy) {
-        return fee.minus(discountPolicy.calculateDiscountAmount(screening));
+    public Money calculateMovieFee(Screening screening) {
+        return null;
     }
 }
