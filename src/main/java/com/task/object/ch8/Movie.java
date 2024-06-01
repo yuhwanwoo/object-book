@@ -28,6 +28,16 @@ public class Movie {
     }
 
     public Money calculateMovieFee(Screening screening) {
+        /*
+        if (discountPolicy == null) {
+            return fee;
+        }
+        return fee.minus(discountPolicy.calculateDiscountAmount(screening));
+        이렇게 내부 코드를 직접 수정하는 것은 버그의 발생 가능성을 높인다
+
+        -> 할인 정책이 존재하지 않는다는 사실을 하나의 정책으로 정의한다. NoneDiscountPolicy
+
+         */
         return null;
     }
 }
