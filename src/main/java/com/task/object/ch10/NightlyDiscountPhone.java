@@ -1,8 +1,6 @@
 package com.task.object.ch10;
 
 import java.time.Duration;
-import java.util.ArrayList;
-import java.util.List;
 
 public class NightlyDiscountPhone extends Phone{
     private static final int LATE_NIGHT_HOUR = 22;
