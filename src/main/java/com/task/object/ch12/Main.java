@@ -17,5 +17,7 @@ public class Main {
                 70,
                 Arrays.asList(81, 95, 75, 50, 45));
         String evaluration = lecture.evaluate();
+        Lecture lecture1 = new GradeLecture("객체지향 프로그래밍", 70, Arrays.asList(new Grade("A", 100, 97)), Arrays.asList(81, 95, 75, 50));
+        lecture1.evaluate();
     }
 }
