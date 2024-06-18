@@ -46,6 +46,6 @@ public class GradeLecture extends Lecture {
                 .filter(grade::include)
                 .mapToInt(Integer::intValue)
                 .average()
-                .orElse(0d);
+                .orElse(0);
     }
 }
