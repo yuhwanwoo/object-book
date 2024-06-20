@@ -41,7 +41,7 @@ public class Lecture {
         return String.format("Title: %s, Evaluation Method: %s", title, getEvaluationMethod());
     }
 
-    private String getEvaluationMethod() {
+    public String getEvaluationMethod() {
         return "Pass or Fail";
     }
 }
